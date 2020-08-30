@@ -1,0 +1,25 @@
+[2020-08-30 10:40:45] 
+
+[2020-08-30 10:40:50] Excluding repository.serpentdrago\addon.xml for 'encoding' is an invalid keyword argument for this function
+[2020-08-30 10:40:50] An error occurred saving zips\addons.xml file!
+'encoding' is an invalid keyword argument for this function
+[2020-08-30 10:40:50] An error occurred creating addons.xml.md5 file!
+'encoding' is an invalid keyword argument for this function
+[2020-08-30 10:40:50] Finished updating addons xml and md5 files
+[2020-08-30 10:42:53] 
+
+[2020-08-30 10:42:57] 
+
+[2020-08-30 10:43:21] 
+
+[2020-08-30 10:43:23] NEW ADD-ON - Creating zip for: repository.serpentdrago v.1.0
+[2020-08-30 10:43:23] Zipping \repository.serpentdrago\addon.xml
+[2020-08-30 10:43:23] Zipping \repository.serpentdrago\fanart.jpg
+[2020-08-30 10:43:23] Zipping \repository.serpentdrago\fanart.png
+[2020-08-30 10:43:23] Zipping \repository.serpentdrago\icon.png
+[2020-08-30 10:43:23] Copied File addon.xml for Addon repository.serpentdrago
+[2020-08-30 10:43:23] Copied File fanart.jpg for Addon repository.serpentdrago
+[2020-08-30 10:43:23] Copied File icon.png for Addon repository.serpentdrago
+[2020-08-30 10:43:23] File zips\addons.xml written
+[2020-08-30 10:43:23] File zips\addons.xml.md5 written
+[2020-08-30 10:43:23] Finished updating addons xml and md5 files

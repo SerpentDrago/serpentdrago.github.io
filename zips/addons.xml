@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<addons>
     <addon id="repository.serpentdrago" name="SerpentDrago's Repo" version="1.0" provider-name="SerpentDrago">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="Dragons Auramod">
-            <info compressed="false">https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.repository" name="Main Repo">
             <info compressed="false">https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/</datadir>
@@ -21,3 +16,4 @@
             <platform>all</platform>
     </extension>
 </addon>
+</addons>

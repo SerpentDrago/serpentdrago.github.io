@@ -4,18 +4,19 @@
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="Dragons Auramod">
-            <info compressed="false">https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/</datadir>
-            <hashes>false</hashes>
+        <extension point="xbmc.addon.repository" name="SerpentDrago's Repo">
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/SerpentDrago/skin.auramod/repo/zips/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/SerpentDrago/serpentdrago.github.io/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/SerpentDrago/serpentdrago.github.io/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/SerpentDrago/serpentdrago.github.io/master/zips/</datadir>
+            </dir>
         </extension>
-        <extension point="xbmc.addon.repository" name="Main Repo">
-            <info compressed="false">https://raw.githubusercontent.com/SerpentDrago/serpentdrago.github.io/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/SerpentDrago/serpentdrago.github.io/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/SerpentDrago/serpentdrago.github.io/master/zips/</datadir>
-            <hashes>false</hashes>
-        </extension>
+
         <extension point="xbmc.addon.metadata">
             <summary>SerpentDrago's  Kodi Repo</summary>
             <description>SerpentDrago's Home for his Addons and mods</description>

@@ -1,5 +1,5 @@
 # SerpentDrago's Public Kodi Repository
-## Current Version: 1.0
+## Current Version: 1.1
 
 
 Instructions for adding this repo:

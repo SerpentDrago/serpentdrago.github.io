@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="1.0.2" provider-name="Philipp Temminghoff (phil65)">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.autocompletion" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="plugin.py"/>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">AutoCompletion for the virtual keyboard (needs skin support)</summary>
+        <description lang="en">AutoCompletion for the virtual keyboard (needs skin support)</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
+        <source>https://github.com/phil65/plugin.program.autocompletion</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <!--            <fanart>resources/fanart.jpg</fanart>-->
+            <!--            <screenshot>resources/screenshot-01.jpg</screenshot>-->
+            <!--            <screenshot>resources/screenshot-02.jpg</screenshot>-->
+            <!--            <screenshot>resources/screenshot-03.jpg</screenshot>-->
+        </assets>
+    </extension>
+</addon>
+
     <addon id="repository.serpentdrago" name="SerpentDrago's Repo" version="1.1" provider-name="SerpentDrago">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -21,6 +46,21 @@
             <summary>SerpentDrago's  Kodi Repo</summary>
             <description>SerpentDrago's Home for his Addons and mods</description>
             <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.module.autocompletion" name="AutoCompletion library" version="1.1.3" provider-name="Philipp Temminghoff (phil65)">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Module providing some AutoCompletion functions</summary>
+        <description lang="en">Module providing some AutoCompletion functions</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
+        <source>https://github.com/phil65/script.module.autocompletion</source>
     </extension>
 </addon>
 </addons>
